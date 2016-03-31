@@ -1,0 +1,22 @@
+<table>   
+    <tbody >
+        <tr>
+            <td><input type="text"  name="fromDate"  ng-model="fromDate"/></td>
+            <td><input type="text"  name="toDate" ng-model="toDate"/></td>  
+            <td><button data-ng-click="getPerformanceData()">submit</button></td>         
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <!-- <thead ng-repeat-start="x in data">
+        <tr><th>{{x.categoryName}}</th></tr>
+    </thead> -->
+    <tbody ng-repeat-end>
+        <tr ng-repeat="y in perfData">
+            <td>{{y.client}}</td>
+            <td>{{y.layer}}</td>
+            <td>{{y.totalTime}}</td>
+        </tr>
+    </tbody>
+</table>

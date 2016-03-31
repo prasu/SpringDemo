@@ -1,0 +1,12 @@
+<table>
+    <!-- <thead ng-repeat-start="x in data">
+        <tr><th>{{x.categoryName}}</th></tr>
+    </thead> -->
+    <tbody ng-repeat-end>
+        <tr ng-repeat="y in perfData">
+            <td>{{y.client}}</td>
+            <td>{{y.layer}}</td>
+            <td>{{y.totalTime}}</td>
+        </tr>
+    </tbody>
+</table>
