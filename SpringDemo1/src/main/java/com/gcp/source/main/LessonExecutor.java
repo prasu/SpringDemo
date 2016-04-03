@@ -10,7 +10,8 @@ public class LessonExecutor {
 				ApplicationContext context = new ClassPathXmlApplicationContext("spring_lessons.xml");
 				LessonFactory factory = context.getBean(LessonFactory.class);
 				//factory.execute("Lesson12");
-				factory.execute("Lesson13");
+				//factory.execute("Lesson13");
+				factory.execute("Lesson14");
 
 	}
 

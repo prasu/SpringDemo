@@ -20,5 +20,9 @@ public class AppConfig implements ApplicationContextAware{
 	public LessonRunner getBean(String lessonName){
 		return (LessonRunner) context.getBean(lessonName);
 	}
+	
+	public ApplicationContext getContext(){
+		return context;
+	}
 
 }
