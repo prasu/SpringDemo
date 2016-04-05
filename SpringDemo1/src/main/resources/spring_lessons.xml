@@ -9,6 +9,8 @@
     
     <import resource="classpath:spring_lesson12.xml"/>
     <import resource="classpath:spring_lesson13.xml"/>
+    <import resource="classpath:spring_lesson14.xml"/>
+    <import resource="classpath:spring_lesson15.xml"/>
 
 	<context:component-scan base-package="com.gcp.source.*" />
 

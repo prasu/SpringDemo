@@ -24,5 +24,15 @@ There are couple ways.
 
 
 ##################### Lesson 14 #############################
+Lifecycle callback methods
+
+1) implementing DisposableBean and InitializingBean  
+2) using xml configuration with  init-method, destroy-method
+3) using annotations  @PostConstruct  ,@PreDestroy
 
 
+######### Lesson15 #######################
+ implementing BeanProcessor we can have methods to be run before and after bean creation for all beans in common
+ note : uncomment DisplayNameBeanPostProcessor @component to make it run.
+ 
+ ##########Lesson 16 ##########
