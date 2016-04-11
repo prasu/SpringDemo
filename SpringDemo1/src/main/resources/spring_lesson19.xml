@@ -17,11 +17,13 @@
 		<property name="type" value="4 cylinder" />		
 	</bean>
 	
+	<bean id="noeng" class="com.gcp.source.lesson19.Engine">
+		<property name="type" value="No Engine" />		
+	</bean>
+	
 	<bean id="motorEngine" class="com.gcp.source.lesson19.Engine">
 	    <qualifier value="eng"/>
 		<property name="type" value="6 cylinder" />		
 	</bean>
-
-   <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
 
  </beans>

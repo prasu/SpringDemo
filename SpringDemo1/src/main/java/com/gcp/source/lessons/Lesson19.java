@@ -15,6 +15,9 @@ public class Lesson19 implements LessonRunner {
 
 		Vehicle vehicle = (Vehicle) config.getContext().getBean("car");
 		vehicle.run();
+		
+		vehicle = (Vehicle) config.getContext().getBean("bike");
+		vehicle.run();
 	}
 
 }

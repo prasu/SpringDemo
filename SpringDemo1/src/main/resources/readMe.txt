@@ -49,6 +49,11 @@ Lifecycle callback methods
  @autowired look for name of the instance variable with the bean name then it will be used.
  @autowired with @qualifier to use multiple beans of  same class.
  @qualifier can be used as bean id or a qualifier tag inside bean defittion.
+ annotation-config is used to configure all annotaion bean post processor instead of defining.
+ 
+ @Resource is similar to autowired it uses name attribute to match the bean id, if name is not defined it will search for intance variable name
+ @Component will not allow to create multiple instances of same class
+ 
  
  
  
