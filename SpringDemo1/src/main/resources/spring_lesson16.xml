@@ -7,14 +7,16 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context-4.1.xsd">
     
-    <import resource="classpath:spring_lesson12.xml"/>
-    <import resource="classpath:spring_lesson13.xml"/>
-    <import resource="classpath:spring_lesson14.xml"/>
-    <import resource="classpath:spring_lesson15.xml"/>
-    
-    <import resource="classpath:spring_lesson16.xml"/>
-    
+    <!-- Based on properties -->
+	
+	
+	<bean id="demobean1" class="com.gcp.source.lesson16.Demo">
+          <property name="name" value="{demo.name}" />
+          <property name="msg" value="{demo.mesage}" />
+	</bean>
 
-	<context:component-scan base-package="com.gcp.source.*" />
-
+    <bean id="prop" class="com.gcp.source.lesson16.BeanFactoryPostProcessorDemo">
+	</bean>
+	
+	
 </beans>

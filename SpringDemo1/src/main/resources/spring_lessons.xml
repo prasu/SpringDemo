@@ -11,6 +11,9 @@
     <import resource="classpath:spring_lesson13.xml"/>
     <import resource="classpath:spring_lesson14.xml"/>
     <import resource="classpath:spring_lesson15.xml"/>
+    
+    <import resource="classpath:spring_lesson16.xml"/>
+    
 
 	<context:component-scan base-package="com.gcp.source.*" />
 
