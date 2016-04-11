@@ -13,8 +13,9 @@ public class LessonExecutor {
 				//factory.execute("Lesson13");
 				//factory.execute("Lesson14");
 				//factory.execute("Lesson15");
-				factory.execute("Lesson16");
-
+				//factory.execute("Lesson16");
+				//factory.execute("Lesson17");
+				factory.execute("Lesson19");
 	}
 
 }

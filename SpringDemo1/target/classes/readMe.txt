@@ -36,5 +36,21 @@ Lifecycle callback methods
  note : uncomment DisplayNameBeanPostProcessor @component to make it run.
  
  ##########Lesson 16 ##########
+ how to get properties from placeholder
+ 
+ #####################Lesson17 and Lesson18 ########################
+ How to use interfaces with spring.
+ @Required is set to setter method.
+ @Required is validated by beanpostprocessor throws an exception.
+ 
+ 
+ ############### Lesson 19 ###########################3
+ @autowired looks for type if one bean is only present then it uses the same bean
+ @autowired look for name of the instance variable with the bean name then it will be used.
+ @autowired with @qualifier to use multiple beans of  same class.
+ @qualifier can be used as bean id or a qualifier tag inside bean defittion.
+ 
+ 
+ 
  
  
