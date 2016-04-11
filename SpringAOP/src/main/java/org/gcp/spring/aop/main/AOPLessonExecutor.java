@@ -9,7 +9,7 @@ public class AOPLessonExecutor {
 		// loading the definitions from the given XML file
 				ApplicationContext context = new ClassPathXmlApplicationContext("spring_aop_lessons.xml");
 				LessonFactory factory = context.getBean(LessonFactory.class);
-				//factory.execute("Lesson23");
+				factory.execute("Lesson1");
 	}
 
 }
